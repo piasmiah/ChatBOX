@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/left_chat_view"
         android:background="@drawable/rounded_corner"
-        android:backgroundTint="#1E88E5"
+        android:backgroundTint="#1A95BB"
         android:padding="8dp"
         android:layout_marginEnd="80dp">
 
@@ -19,7 +19,9 @@
             android:id="@+id/left_chat_text_view"
             android:textColor="@color/white"
             android:textSize="18sp"
-            android:text="Hey, how are you?"/>
+            android:text="Hey, how are you?"
+            android:background="@null"
+            android:inputType="text|textNoSuggestions"/>
     </LinearLayout>
 
     <LinearLayout
@@ -28,7 +30,7 @@
         android:id="@+id/right_chat_view"
         android:layout_alignParentEnd="true"
         android:background="@drawable/rounded_corner"
-        android:backgroundTint="#1E88E5"
+        android:backgroundTint="#1A95BB"
         android:padding="8dp"
         android:layout_marginStart="80dp">
 
@@ -38,7 +40,9 @@
             android:id="@+id/right_chat_text_view"
             android:textColor="@color/white"
             android:textSize="18sp"
-            android:text="Alhamdulillah!"/>
+            android:text="Alhamdulillah!"
+            android:background="@null"
+            android:inputType="text|textNoSuggestions"/>
     </LinearLayout>
 
 </RelativeLayout>
